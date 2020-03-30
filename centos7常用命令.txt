@@ -1,0 +1,7 @@
+yum groupinstall "GNOME Desktop"  安装可视化界面
+init 5 切换到可视化界面
+给用户授予sudo权限  修改文件，在如下位置增加一行，保存退出。
+vim /etc/sudoers 进入文件编辑器
+文件内容改变如下：
+root ALL=(ALL) ALL 已有行
+username ALL=(ALL) ALL 新增行

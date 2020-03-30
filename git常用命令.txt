@@ -1,0 +1,4 @@
+git init 在当前项目的目录中生成本地的git管理
+git add . 这个是将项目上所有的文件添加到仓库中的意思，如果想添加某个特定的文件，只需把.换成这个特定的文件名即可。
+git remote add origin url(仓库地址) 将本地的仓库关联到github上
+git push -u origin master 这是把代码上传到github仓库的意思，同时也是设置默认登陆账户密码
